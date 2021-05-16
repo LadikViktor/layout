@@ -1,0 +1,170 @@
+body {
+  background: #cecece;
+}
+
+.section {
+  background: #757370;
+  border: 5px solid #fff;
+  border-radius: 3px;
+}
+
+.section__header {
+  background: #eeecda;
+}
+
+.section__title {
+  margin: 0;
+  font-size: 45px;
+  padding: 10px 10px;
+  font-family: arial black;
+  font-weight: bold;
+  
+}
+
+.section__content {
+  background-image: url("https://im0-tub-ru.yandex.net/i?id=d37b4091b815e4fd0dbf873003024035&ref=rim&n=33&w=188&h=188");
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: flex-start;
+  
+}
+
+.item {
+  flex-basis: 25%;
+}
+
+.item_fon{
+  background: rgb(194, 192, 192);
+  color:black;
+  font:bold Helvetica, Sans-Serif;
+}
+
+.item__view {
+  position: relative;  
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 40%;
+  margin: 1px;
+  
+}
+
+.item__view_1 {
+  background-image: url('https://carte.by/source/photos/2017/03/10/57e42352871989b154a9018d27737cde7cf3186ea740cb99ee503b2024e492b4_x400_f5_xapp.jpg');
+}
+
+.item__view_2 {
+  background-image: url('https://carte.by/source/photos/2017/05/31/e94c4b539a78edb952f656908cf6c27b779e1256fc2153b3d01349a666157779_x400_fe_xapp.jpg');
+}
+
+.item__view_3 {
+  background-image: url('https://carte.by/source/photos/2017/05/16/19b5c57546af753347da643f13f0f6d999e09b5565886b9dbc46794d13cbe8ae04f75b0b3fecb3f9ac70c4b6609122f4_x400_21_xapp.JPG');
+ 
+}
+
+.item__view_4 {
+  background-image: url('https://carte.by/source/photos/2017/05/31/000879d45b81393aa98cac7538baeb20c1a3f8857fe659bc4437531329f92fe1_x400_bf_xapp.jpg');
+}
+
+.item__content {
+  padding: 10px 10px 10px 5px;
+}
+
+.item__view-text,
+.view-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.view-text__title {
+  font-size: 18px;
+  margin: 0;
+  margin-bottom: 5px;
+  font-family: arial black;
+  font-weight: bold;
+}
+
+.view-text__p {
+  font-size: 14px;
+  margin: 0;
+  font-family: arial;
+  line-height: 2em;
+}
+
+.menu {
+  padding-left: 5px;
+  margin-bottom: 5px;
+  
+}
+
+.menu__item {
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-family: arial;
+  line-height: 2em;
+}
+
+.menu__item_color_salat{
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: red;
+  font-family: arial;
+}
+
+.menu__item_paragraf{
+  line-height: 1;
+  font-family: arial;
+  }
+
+.menu__item_red {
+  color: red;
+}
+
+.price {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 5px;
+  border-radius: 2px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: arial black;
+}
+
+.price_hot {
+  background-color: red;
+  color: #fff;
+  margin-top: 10px;
+}
+
+
+
+/* @media (min-width: 1200px) {
+  .item {
+    flex-basis: 300px; 
+  }
+}  */
+
+
+
+@media (max-width: 1000px) {
+  .item {
+    flex-basis: 50%; 
+  }
+}
+
+@media (max-width: 420px) {
+  .item {
+    flex-basis: 100%; 
+  }
+}
